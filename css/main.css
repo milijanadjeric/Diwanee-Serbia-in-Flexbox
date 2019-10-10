@@ -21,10 +21,17 @@ h1{
     letter-spacing: 3px;
     text-transform: uppercase;
     color:#000000d3;
-    padding-top: 120px;
+    padding-top: 125px;
 } 
-h4 {
+h2 {
     text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #000000;
+}
+h3 {
+    text-transform: uppercase;
+    font-size: 15px;
     letter-spacing: 2px;
 }
 .hr1 {
@@ -32,7 +39,7 @@ h4 {
     height: 1px;
     border: 1px solid #C41230;
     background-color: #C41230;
-    margin-top: 20px;  
+    margin-top: 30px;  
 }
 .hr2 {
     width: 6%;
@@ -99,6 +106,7 @@ a {
 /* ---------------------------------- */
     /* SECTION GEOMETRICS */
 /* ---------------------------------- */
+
 .geometrics {
     display: flex;
 
@@ -109,24 +117,24 @@ a {
     padding: 130px 0 30px;
 }
 
-.article-left,
-.article-right {
-    background-color: #fbfbfb;
+.article {
     width: 33.3%;
 }
-.triangle, 
-.oval,
-.rectangle {
+
+.article.white {
+    background-color: #fbfbfb;
+}
+
+.article.grey {
+    background-color: #e9e9e9;
+}
+
+.geometrics-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-
-.article-center {
-    width: 33.3%;
-    background-color: #e9e9e9; 
 }
 
 .geometrics-paragraph {
@@ -135,4 +143,29 @@ a {
     font-size: 14px;
     padding: 20px 45px 50px;
 
+}
+
+/* ---------------------------------- */
+    /* SECTION GEOMETRICS */
+/* ---------------------------------- */
+
+.jobs-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first-title {
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: #a6a6a6;
+    padding: 100px 0 25px;
+}
+.second-title {
+    font-size: 24px;
+    color: #000000d3;
+    padding: 50px 0 60px;
+    text-align: center;
+    line-height: 35px;
 }
