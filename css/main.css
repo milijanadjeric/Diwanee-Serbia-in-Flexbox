@@ -158,9 +158,10 @@ ul {
     justify-content: center;
     align-items: center;
 }
-.first-title {
+.first-title, 
+.first-title-last  {
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 3px;
     color: #a6a6a6;
     padding: 100px 0 25px;
@@ -248,11 +249,11 @@ ul {
     margin: 50px 0 100px 600px;
 }
 
-/* * ---------------------------------- */
+/* ---------------------------------- */
     /* SECTION JOBS-DESCRIPTION */
 /* ---------------------------------- */ 
 
-.diwanee-beograd {
+.about-us {
     background-color: #fbfbfb;
 }
 
@@ -267,4 +268,28 @@ ul {
 }
 .paragraph-2 {
     padding: 0 0 80px 0;
+}
+
+/* ---------------------------------- */
+    /* SECTION FOLLOW-US */
+/* ---------------------------------- */ 
+
+.follow-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first-title-last {
+    padding: 50px 0 25px;
+}
+.pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.img {
+    width: 40%;
+    padding: 0 5px 50px;
 }
