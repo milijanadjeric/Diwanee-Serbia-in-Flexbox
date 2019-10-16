@@ -34,6 +34,13 @@ h3 {
     font-size: 16px;
     letter-spacing: 2px;
 }
+h4 {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: white;
+
+}
 .hr1 {
     width: 3%;
     height: 1px;
@@ -112,7 +119,6 @@ ul {
 
 .geometrics {
     display: flex;
-
 }
 
 .geometrics img {
@@ -292,4 +298,44 @@ ul {
 .img {
     width: 40%;
     padding: 0 5px 50px;
+}
+
+/* ---------------------------------- */
+    /* SECTION CITIES */
+/* ---------------------------------- */ 
+.cities {
+    display: flex;
+    background-color: #000000d0;
+    height: 40vh;
+    align-items: center;
+    padding: 0 120px;
+
+    
+}
+
+.city-article {
+    width: 33.3%; 
+    display: flex;
+    justify-content: center;
+    
+}
+.place-pin {
+    padding-right: 10px;
+    height: 20px;
+    
+}
+
+
+.city-name {
+    display: flex;
+    align-items: flex-end;
+    
+}
+.adress {
+    font-size: 12px;
+    color: #a6a6a6;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding-top: 10px;
 }
