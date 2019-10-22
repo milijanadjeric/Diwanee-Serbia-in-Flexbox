@@ -265,7 +265,7 @@ ul {
 }
 
 /* ---------------------------------- */
-    /* SECTION JOBS-DESCRIPTION */
+    /* SECTION ABOUT US */
 /* ---------------------------------- */ 
 
 .about-us {
@@ -315,10 +315,8 @@ ul {
 .cities {
     display: flex;
     background-color: #000000d0;
-    height: 40vh;
     align-items: center;
-    padding: 0 120px;
-
+    padding: 100px 120px;
     
 }
 
