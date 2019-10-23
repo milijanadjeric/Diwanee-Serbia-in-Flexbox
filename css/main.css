@@ -9,6 +9,10 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+html, 
+body {
+    overflow-x: hidden;
+}
 
 
 
@@ -66,9 +70,9 @@ header {
     background-position: center;
     background-size: cover;
     position: relative;
-    height: 100vh;
     background-color: #4d4d4d;
     opacity: 0.9;
+    height: 100vh;
       
 }
 .navigation {
@@ -108,7 +112,7 @@ ul {
     color: #000000;
     letter-spacing: 2px;
     text-align: center;
-    padding-top: 50px;
+    padding: 50px;
     line-height: 30px; 
     font-weight: bold;  
 }
@@ -175,7 +179,7 @@ ul {
 .second-title {
     font-size: 24px;
     color: #000000d3;
-    padding: 50px 0 60px;
+    padding: 50px 350px;
     text-align: center;
     line-height: 35px;
 }
