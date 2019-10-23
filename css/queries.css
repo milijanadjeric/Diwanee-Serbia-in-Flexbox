@@ -228,8 +228,8 @@
     }
     .geometrics-paragraph {
         padding: 40px 60px;
-        font-size: 19px;
-        line-height: 30px;
+        font-size: 21px;
+        line-height: 35px;
     
     }
     
@@ -243,18 +243,28 @@
     }
     .front-end-developer-designer, 
     .project-manager {  
-        padding: 20px;   
+        padding: 40px;   
     }
      h2 {
-         text-align: center;
+        text-align: center;
+        font-weight: 400;
      }
+     
     .first-title,
     .first-title-last {
         letter-spacing: 5px;
     }
+    .second-title {
+        
+        padding: 50px 30px;
+        line-height: 30px;
+        
+    }
     .paragraph,
     .paragraph-2 {
         width: 70%;
+        font-size: 18px;
+        line-height: 30px;
     }
     .first-title-last {
         padding: 20px 0;
