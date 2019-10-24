@@ -93,11 +93,27 @@ ul {
     text-decoration: none;
     padding: 10px;
     text-transform: uppercase;
-    color: #4d4d4d;
-    font-size: 13px;
-    letter-spacing: 4px;
+    color: #2c2b2b;
+    font-size: 15px;
+    letter-spacing: 3px;
     line-height: 16px;
-    padding-left: 40px;
+    font-weight: bold;
+    
+}
+
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-botoom 0.2s;
+    transition: border-botoom 0.2s;
+}
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 1px solid #C41230;
+    color: #C41230;
+    font-weight: 100;
+   
 }
 
 .top-content {
@@ -115,6 +131,20 @@ ul {
     padding: 50px;
     line-height: 30px; 
     font-weight: bold;  
+}
+
+
+/* ---------------------------------- */
+    /* Sticky Navigation */
+/* ---------------------------------- */
+
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    padding: 10px 0;
+        
 }
 
 /* ---------------------------------- */
@@ -265,7 +295,7 @@ ul {
 }
 
 .article-readmore {
-    margin: 50px 0 100px 600px;
+    margin: 50px 0 100px 590px;
 }
 
 /* ---------------------------------- */
