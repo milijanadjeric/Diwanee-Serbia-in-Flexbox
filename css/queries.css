@@ -1,8 +1,9 @@
 /* Big tablet to 1200px */
 @media only screen and (max-width: 1200px) {
+    
    
     h1{
-        padding-top: 170px;
+        padding-top: 80px;
         font-size: 90px;
     } 
     h2 {
@@ -87,12 +88,14 @@
 }
 
 
+
     /* Small tablet to big tablet: from 768px to 1023px  */
 
     @media only screen and (max-width: 1023px) {
         h1{
-            padding-top: 110px;
+            padding-top: 60px;
         } 
+    
       
     .geometrics img {
         padding: 80px 0 20px;
@@ -114,17 +117,56 @@
     .second-title {
         padding: 50px 150px;
     }
+}
+
+
+/*  from 870px to 768px  */
+
+
+@media only screen and (max-width: 887px) {
+    .logo {
+        margin-left: 100px;
+    }
+    .main-nav {
+        margin-right: 100px;
+    }
+    .apply {
+        padding-left: 10;        
+    }
+    .front-end-developer-designer, 
+    .project-manager {  
+        padding: 50px 0;   
+    }
+    .article-readmore {
+        margin-left: 340px;
+    }
+    .cities {
+        padding: 40px 60px;
+    }
+    
+    
+    
+    
+    }
+    
 
 
 
     /* Small phones to small tablets: from 481 to 767px*/
 
-    @media only screen and (max-width: 767px) {
+    @media only screen and (max-width: 793px) {
    h1{
-        font-size: 75px;
-        padding-top: 125px;
+        font-size: 60px;
+        padding-top: 120px;
         letter-spacing: 2px;
     }
+    .logo {
+        margin-left: 50px;
+    }
+    .main-nav {
+        margin-right: 50px;
+    }
+    
     h3 {
         font-size: 18px;
     } 
@@ -201,23 +243,18 @@
     
 
 
-    /* Small phones: from 0 to 480px */
+    /* Small phones: from 0 to 481px */
 
-    @media only screen and (max-width: 480px) {
+    @media only screen and (max-width: 666px) {
     h1{
         font-size: 60px;
         font-weight: 500;
         padding-top: 150px;
         letter-spacing: 2px;
     }
-    .main-nav {
-        display: none;
-        
-    }
-    .logo {
-        padding-right: 280px;
-        
-    }
+
+    
+    
     
     .main-paragraph {
         font-size: 16px;
@@ -323,11 +360,61 @@
     }
     
     
+    @media only screen and (max-width: 666px) {
+        .logo {
+            margin-left: 20px;
+        }
+        .main-nav {
+            margin-right: 20px;
+        }
+        
+
+    }  
+
+    @media only screen and (max-width: 563px) {
+        /* .main-nav {
+            display: none;
+        } */
+        .fa.fa-bars {
+            display: inline-block; 
+            margin-right: 10px;
+            
+        }
+
+        .main-nav {
+            margin-right: 80px;
+            font-size: 200%;
+            margin-top: 10px;
+        }
+
+        .main-nav li a:link,
+        .main-nav li a:visited {
+            
+            border-bottom: 0;
     
+        }
+
+        .main-nav li a:hover,
+        .main-nav li a:active {
+        border-bottom: 0;
+        color: black;
+   
+        }
+        
+        .main-nav li {
+            display: block;
+        }
+        .sticky .fa.fa-bars {
+            color: black;
+        }
+
+    
+
+    }
     
     
     
     
     
 
-    }
+    

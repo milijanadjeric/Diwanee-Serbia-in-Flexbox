@@ -3,7 +3,7 @@
 $(document).ready(function () {
 
 
-    /* For the sticky navigation (this is JavaScript Plug-in) */
+  /* For the sticky navigation (this is JavaScript Plug-in) */
 
   $('.js--geometrics').waypoint(function (direction) {
     if (direction == "down") {
@@ -13,9 +13,9 @@ $(document).ready(function () {
 
     }
   }, {
-    offset: '10px;'
+      offset: '10px;'
 
-  });
+    });
 
 
   /* Navigation scroll - performs a smooth page scroll to an anchor on the same page (This is jQuery snippet) */
@@ -36,5 +36,16 @@ $(document).ready(function () {
   });
 
 
+  /* Mobile nav */
+
+  $('.js--fa-fa-bars').click(function () {
+    var nav = $('.js--main-nav');
+    // var icon = $('.js--fa-fa-bars');
+
+    nav.slideToggle(200);
+
+
 
 });
+});
+
