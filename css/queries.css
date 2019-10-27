@@ -37,7 +37,7 @@
         font-size: 18px;
     }
     .tags {
-        padding: 6px 14px;
+
         font-size: 14px;
     }
     .button {
@@ -357,19 +357,15 @@
     span {
         display: none;
     }
+    .logo {
+        margin-left: 20px;
+    }
+    .main-nav {
+        margin-right: 20px;
+    }
     }
     
     
-    @media only screen and (max-width: 666px) {
-        .logo {
-            margin-left: 20px;
-        }
-        .main-nav {
-            margin-right: 20px;
-        }
-        
-
-    }  
 
     @media only screen and (max-width: 563px) {
         .main-nav {
@@ -409,7 +405,9 @@
             color: black;
         }
 
-    
+        @media only screen and (max-width: 377px) {
+
+        }
 
     }
     
