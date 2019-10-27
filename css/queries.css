@@ -372,9 +372,10 @@
     }  
 
     @media only screen and (max-width: 563px) {
-        /* .main-nav {
+        .main-nav {
             display: none;
-        } */
+        }
+
         .fa.fa-bars {
             display: inline-block; 
             margin-right: 10px;

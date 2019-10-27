@@ -16,6 +16,7 @@ $(document).ready(function () {
       offset: '10px;'
 
     });
+  
 
 
   /* Navigation scroll - performs a smooth page scroll to an anchor on the same page (This is jQuery snippet) */
@@ -40,7 +41,7 @@ $(document).ready(function () {
 
   $('.js--fa-fa-bars').click(function () {
     var nav = $('.js--main-nav');
-    // var icon = $('.js--fa-fa-bars');
+    
 
     nav.slideToggle(200);
 
